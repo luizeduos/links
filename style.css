@@ -1,0 +1,163 @@
+@charset "uft-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: #0f0f0f;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.principal {
+    display: flex;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+#fotoPerfil {
+    width: 80px;
+    height: auto;
+    border-radius: 100%;
+    margin-top: -15px;
+}
+
+.principal h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.principal h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.link {
+    background-color: #0f0f0f;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+#instagram:hover {
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNBwcNDQcHBw0HBg0HBwgHBw8ICQgNFREWFiAREx8YHCggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0NFQ8NFSsZFRkrKy03NysrKysrKysrKysrKy0tKysrKysrNysrKysrKysrKysrNysrKysrKys3KystN//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EABUQAQEAAAAAAAAAAAAAAAAAAAAR/8QAGgEBAQADAQEAAAAAAAAAAAAAAwIBBgcABP/EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAwDAQACEQMRAD8A8CKNmS+4bKiISQbQioSUaqyo0kG0Io0lGqsqNJRqqA0kG0Io0kGKgmsagJSsYAlKhqIqaxgCUqGAISsaI0g0rGyjSCSQbIqCSsaI0g0kGyKQSVjZAdAS52MRRKSDZURCSDaEVCSjVWVGkg2hFGko1VlRpINVQGko2hFGkgxUE1jUBKVjAEpUNRFTWMASlQwBCVjRGkGlY2UaQSSDZFQSVjQVBpINlFG/Jc6GgCEkGIolJBsqIhJBtCCElG0rKjSQbQijSUaqyo0kGqoDSUbQijSQYqCaxqAlKxgCUqGoiprGAJSoYAhKxojSDSsbKNIJJBsjSDSsbCKN7S5yNEUSko0AQkgxFEpINlREpINVQGko2lZUaSDaEUaSjVWVGkg1VAaSjaEUaSDFQTWNQEpWMASlQ1EVNYwBKVDAEJWNEaQaVjZFQSSDcwG8pc4GIolJBoiiUlGgCEkGIolJBsqIlJBqqA0lG0rKjSQbQijSUaqyo0kGqoDSUbQijSQYqCaxqAlKxgCUqGoiprGAJSoYAhKxojSDSsbkijdrnI0ASlYxFEpINEUSko0AQkgxFEpINlREpINVQGko2lZUaSDaEUaSjVWVGkg1VAaSjaEUaSDFQTWNQEpWMASlQ1EVNYwBKVDAEJWNxAbnc5GIoxWNAEpWMRRKSDRFEpKNAEJIMRRKSDZURKSDVUBpKNpWVGkg2hFGko1VlRpINVQGko2hFGkgxUE1jUBKVjAEpUNRFTWMBU5UNwAbhc6GAPVDEUYrGgCUrGIolJBoiiUlGgCEkGIolJBsqIlJBqqA0lG0rKjSQbQijSUaqyo0kGqoDSUbQijSQYqCaxqAlKxgCUqGoiprG4gNvudDAGKhgD1QxFGKxoAlKxiKJSQaIolJRoAhJBiKJSQbKiJSQaqgNJRtKyo0kG0Io0lGoijSQaqyo0lG0Io0kGKgmsagJSsYAnKhuQDbrnYwBioYA9UMAYqGIoxWNAEpWMRRKSDRFEpKNAEJIMRRKSDZURKSDVUBpKNpWVGkg2hFGko1EUaSDVWVGko2hFGkgxUE1jUBNY3NAbbc7IAxUQBiogDFRAHqyIoxUUASyERRLINEBDIMASyDEBLIUUEMoxQQyDVQEko1AGyFVQGko1UBpINQBspFBiq//9k=');
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+#whatsapp:hover {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPj0JKh3Dxmo7ptA1iAyZTCEWgbiSYXyePLU9CyQtvdw&s');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#email:hover {
+    background-image: url('data:image/jpeg;base64,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');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#portfolio:hover {
+    background-image: url('https://img.freepik.com/vetores-premium/design-de-papel-de-parede-abstrato-gradiente-de-fundo_669134-54.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.link a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.link:hover a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link #img {
+    width: 25px;
+    display: flex;
+}
+
+.link:hover #img {
+    display: none;
+}
+
+.link #img-1 {
+    width: 25px;
+    display: none;
+}
+
+.link:hover #img-1 {
+    display: flex;
+    width: 25px;
+}
+
+#instagram {
+    margin-top: 8px;
+}
+
+.imgs {
+    display: flex;
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -200px;
+}
+
+.txt {
+    position: absolute;
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
